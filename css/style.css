@@ -1,0 +1,42 @@
+h1{
+    color: #666;
+}
+input[type='text']{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 27px;
+    width: 200px;
+    text-indent: 5px;
+}
+input[type='text'] + button {
+    border: 1px solid #999;
+    background-color: #999;
+    color: #fff;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+}
+ul{
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+li{
+    margin: 10px 0;
+    line-height: 30px;
+    background-color: #fff4d8;
+    list-style: none;
+}
+li > span{
+    padding: 0 5px;
+    color: #777;
+}
+li > b.del{
+    float: right;
+    cursor: pointer;
+    color: #fff;
+    padding: 0 5px;
+    background-color: #ffcf5d;
+
+}

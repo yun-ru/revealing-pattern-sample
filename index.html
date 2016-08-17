@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="peopleModule">
+    <h1>People List</h1>
+    <input placeholder="name" type="text">
+    <button id="addPerson">Add Person</button>
+    <ul id="people">
+        <script id="people-template" type="text/x-handlebars-template">
+            {{#each people}}
+            <li>
+                <span>{{.}}</span>
+                <b class="del">X</b>
+            </li>
+            {{/each}}
+        </script>
+    </ul>
+
+</div>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/handlebars/handlebars.min.js"></script>
+<script src="js/entry.js"></script>
+</body>
+</html>
