@@ -1,0 +1,21 @@
+{
+  "name": "revealing-pattern-sample",
+  "description": "",
+  "main": "entry.js",
+  "authors": [
+    "Ruby Chen <ruby@yun-ru.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/yun-ru/revealing-pattern-sample",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "jquery": "^3.1.0"
+  }
+}
